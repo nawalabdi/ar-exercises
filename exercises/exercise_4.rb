@@ -15,13 +15,12 @@ mens_apparel: false,
  )
 
 Store.create(
-  name: "Whistlert",
+  name: "Whistler",
 annual_revenue: 1900000, 
 mens_apparel: true, 
 womens_apparel: false )
 
-Store.create
-(name: "Yaletown",
+Store.create(name: "Yaletown",
  annual_revenue: 430000,
  mens_apparel: true,
  womens_apparel: true)
